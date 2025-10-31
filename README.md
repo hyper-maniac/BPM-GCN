@@ -29,8 +29,7 @@ Displays the video with the predicted emotion label overlaid on each frame.
 📁 BPM-GCN/
 │
 ├── data/                     # Folder to be uploaded manually in Colab session
-│   ├── train/                # Contains training video samples
-│   ├── test/                 # Contains testing video samples
+│   ├── data files            # Contains training sample in emotion gait form
 │
 ├── emotion_classifier_rf.pkl # Saved Random Forest model
 ├── scaler.pkl                # Scaler used for feature normalization
